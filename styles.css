@@ -1,0 +1,86 @@
+/*global styles*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/*body styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*header styles*/
+header {
+    width: 100%;
+    background-color: #888989;
+    padding: 22px 0;
+}
+.h1-in-header {
+    color: #fff;
+    width: 85%;
+    margin:  0 auto;
+    padding: 1.5rem; border-radius: 5px; border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*styles for sections*/
+.detail-sec {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 22px;
+}
+p, ul, address, h2 {
+    padding-left: 1.5rem;
+}
+ul {
+    list-style-position: inside;
+}
+address {
+    font-style: normal;
+}
+h2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: capitalize;
+}
+/*footer styles: stay at the bottom*/
+footer {
+    margin-top: auto;
+    background-color: #888989;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+.footer-div {
+    color: #fff;
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-div p {
+    
+    padding: 1.5rem;
+}
+
+/*
+media queries
+*/
+@media screen and (max-width: 768px) {
+    html, body {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
