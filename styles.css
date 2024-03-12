@@ -47,14 +47,36 @@ p, ul, address, h2 {
 ul {
     list-style-position: inside;
 }
+ul li {
+    padding: 2px;
+}
 address {
     font-style: normal;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 h2 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-transform: capitalize;
 }
+.contact-info-div p {
+    margin: 2px 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.social-links-nav {
+    margin-top: 16px;
+    padding: 1.5rem;
+}
+.social-links-nav  a {
+    text-decoration: none;
+    padding: 8px;
+    
+    background-color: hsl(219, 100%, 53%);
+    color: #fff;
+}
+
 /*footer styles: stay at the bottom*/
 footer {
     margin-top: auto;
@@ -83,4 +105,12 @@ media queries
     h2 {
         font-size: 1.2rem;
     }
+    .social-links-nav {
+        margin-top: 8px;
+    }
+    .contact-info-div p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
 }
