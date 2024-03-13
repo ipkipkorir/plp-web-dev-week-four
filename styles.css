@@ -110,6 +110,12 @@ media queries
     }
     .social-links-nav {
         margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social-links-nav a {
+        margin-top: 4px;
+        margin-bottom: 4px;
     }
     .contact-info-div p {
         padding-top: 2px;
